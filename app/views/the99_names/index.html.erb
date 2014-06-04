@@ -1,0 +1,6 @@
+<p>subscribe to receive daily or weekly text messages with one of God's 99 names</p>
+
+<%= form_tag("/users", method: "POST") do %>
+  <input type="text" name="phone_number">
+  <input type="submit" value="subscribe">
+<% end %>
