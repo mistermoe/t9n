@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  arabic_name: MyString
+  english_transliteration: MyString
+  img: MyString
+  etymology: MyText
+  article: MyText
+
+two:
+  arabic_name: MyString
+  english_transliteration: MyString
+  img: MyString
+  etymology: MyText
+  article: MyText
