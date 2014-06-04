@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140604005029) do
+ActiveRecord::Schema.define(version: 20140604005536) do
 
   create_table "name_translations", force: true do |t|
     t.integer  "name_id"
@@ -30,6 +30,14 @@ ActiveRecord::Schema.define(version: 20140604005029) do
     t.datetime "updated_at"
     t.string   "triliteral_root"
     t.text     "dictionary_definition"
+  end
+
+  create_table "quranic_references", force: true do |t|
+    t.integer  "surat_number"
+    t.integer  "verse_number"
+    t.integer  "name_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "resources", force: true do |t|
